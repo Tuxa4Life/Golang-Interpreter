@@ -1,0 +1,15 @@
+var x = 1
+var y = 2
+
+if (x < y) {
+    if (true) {
+        Println(y)
+    }
+} else {
+    Println(x)
+}
+
+while (x < 10) {
+    Println(x)
+    x = x + 1
+}
